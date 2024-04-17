@@ -6,6 +6,12 @@ Este projeto analisa os acidentes nas rodovias brasileiras, com foco especial na
 
 O principal objetivo deste projeto é realizar uma análise abrangente das causas dos acidentes nas rodovias do Brasil, focando especialmente na eficácia dos radares. Desejamos entender melhor como a localização dos radares influencia a ocorrência e a gravidade dos acidentes.
 
+## Perguntas de Negócio e Objetivo Específico
+
+O objetivo específico desta parte do projeto é demonstrar habilidades avançadas em SQL e análise de dados. Utilizamos Python para estabelecer uma conexão com o banco de dados através do pyodbc e realizamos consultas complexas utilizando tanto pandasql quanto operações diretas de SQL. Esta abordagem visa evidenciar a capacidade de manipular e analisar grandes conjuntos de dados de forma eficiente, utilizando ferramentas tecnológicas atuais para extrair insights valiosos que suportem decisões baseadas em dados. A utilização do pyodbc permite uma conexão robusta e segura ao banco de dados SQL Server, enquanto o pandasql oferece uma maneira flexível e intuitiva de executar consultas SQL diretamente em DataFrames do pandas, facilitando análises complexas e a integração de processos de análise de dados dentro do ambiente Python.
+
+Para mais detalhes, confira a análise completa [aqui](https://github.com/tmarsbr/analise-PRF-/blob/main/Pergutas%20de%20Negocio/An%C3%A1lise%20de%20Dados%20da%20Pol%C3%ADcia%20Rodovi%C3%A1ria%20Federal%20-%20SQL.ipynb).
+
 ## Recursos do Projeto
 
 - **Eficácia dos Radares:** Investigação sobre a correlação entre a localização dos radares e a ocorrência de acidentes.
@@ -30,11 +36,10 @@ Identificamos que a presença de radares, apesar de importante, não é suficien
 5. **Análise Contínua de Dados de Acidentes:** Estabelecer um sistema de monitoramento contínuo para dados de acidentes.
 6. **Implementação de Políticas Públicas Integradas:** Desenvolver políticas que abordem de forma integrada as diversas causas dos acidentes.
 
-
-
 ## Fontes de Dados
 
 - **Dados Abertos da PRF:** [PRF Data](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf)
 - **Dados dos Radares:** [Radar Data](https://dados.gov.br/dados/conjuntos-dados/radar)
 
 [Projeto completo](https://github.com/tmarsbr/analise-PRF-/blob/main/An%C3%A1lise%20de%20Dados%20da%20Pol%C3%ADcia%20Rodovi%C3%A1ria%20Federal.ipynb)
+
