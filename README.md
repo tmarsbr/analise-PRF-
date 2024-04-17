@@ -1,14 +1,16 @@
 # Análise dos Acidentes nas Rodovias Brasileiras
 
-Este projeto analisa os acidentes nas rodovias brasileiras, com foco especial na relação entre a localização dos radares e a ocorrência desses acidentes. Utilizando uma combinação robusta de análise estatística e geoespacial, investigamos vários aspectos relacionados à segurança rodoviária e à eficácia dos radares.
+Este projeto se propõe a investigar os acidentes ocorridos nas estradas brasileiras, com um olhar especial para sua relação com a localização dos radares. Com base em uma forte combinação de análise estatística e geoespacial, examinamos muitos aspectos da segurança rodoviária e da eficácia do radar.
 
 ## Objetivo da Análise
 
-O principal objetivo deste projeto é realizar uma análise abrangente das causas dos acidentes nas rodovias do Brasil, focando especialmente na eficácia dos radares. Desejamos entender melhor como a localização dos radares influencia a ocorrência e a gravidade dos acidentes.
+O objetivo deste projeto é, portanto, realizar uma análise extensiva das causas dos acidentes nas estradas do Brasil, especialmente em relação à eficácia dos radares. Estamos interessados em investigar se a localização dos radares desempenha algum papel na quantidade e gravidade dos acidentes.
+
+[Projeto completo](https://github.com/tmarsbr/analise-PRF-/blob/main/An%C3%A1lise%20de%20Dados%20da%20Pol%C3%ADcia%20Rodovi%C3%A1ria%20Federal.ipynb)
 
 ## Perguntas de Negócio e Objetivo Específico
 
-O objetivo específico desta parte do projeto é demonstrar habilidades avançadas em SQL e análise de dados. Utilizamos Python para estabelecer uma conexão com o banco de dados através do pyodbc e realizamos consultas complexas utilizando tanto pandasql quanto operações diretas de SQL. Esta abordagem visa evidenciar a capacidade de manipular e analisar grandes conjuntos de dados de forma eficiente, utilizando ferramentas tecnológicas atuais para extrair insights valiosos que suportem decisões baseadas em dados. A utilização do pyodbc permite uma conexão robusta e segura ao banco de dados SQL Server, enquanto o pandasql oferece uma maneira flexível e intuitiva de executar consultas SQL diretamente em DataFrames do pandas, facilitando análises complexas e a integração de processos de análise de dados dentro do ambiente Python.
+o objetivo específico desta parte do projeto é demonstrar habilidades avançadas em SQL e análise de dados. Utilizando Python para se conectar ao banco de dados por meio do pyodbc e executar consultas complexas com o pandasql e operações de SQL brutos dentro do Python. Responsável por indicar a capacidade de lidar e analisar grandes quantidades de dados com eficiência e utilizar as ferramentas tecnológicas disponíveis para obter insights que possam ser usados para decisões baseadas em dados. O pyodbc fornece uma conexão robusta e segura com o SQL Server, enquanto o pandasql oferece uma maneira fácil e simples de executar consultas SQL diretamente em DataFrames do pandas, facilitando um teste rápido e fácil usando o SQL e integrando o processo de análise de dados com Python.
 
 Para mais detalhes, confira a análise completa [aqui](https://github.com/tmarsbr/analise-PRF-/blob/main/Pergutas%20de%20Negocio/An%C3%A1lise%20de%20Dados%20da%20Pol%C3%ADcia%20Rodovi%C3%A1ria%20Federal%20-%20SQL.ipynb).
 
@@ -23,11 +25,11 @@ Para mais detalhes, confira a análise completa [aqui](https://github.com/tmarsb
 
 ## Metodologia
 
-O projeto combina análise estatística e geoespacial para avaliar os dados de acidentes coletados entre 2022 e 2024. Utilizamos Python, juntamente com bibliotecas como Pandas para manipulação de dados, Matplotlib e Seaborn para visualizações gráficas, e GeoPandas para análises geoespaciais.
+O projeto é uma combinação de estatística e análise geoespacial que avalia os dados dos acidentes coletados de 2022 a 2024. Utilizamos a linguagem de programação Python, com várias bibliotecas como Pandas para manipulação do dataset, Matplotlib e Seaborn para visualizações gráficas e GeoPandas para análises geo-espaciais.
 
 ## Conclusões e Recomendações
 
-Identificamos que a presença de radares, apesar de importante, não é suficiente para prevenir acidentes significativos. Propomos uma série de recomendações para melhorar a segurança nas rodovias:
+Embora a presença de radares seja significativa, percebemos que isso não é suficiente para prevenir acidentes significativos. Algumas das recomendações incluídas para promover a segurança rodoviária incluem
 
 1. **Reavaliação Estratégica da Localização dos Radares:** Ajustar a localização dos radares para maximizar sua eficácia.
 2. **Melhorias na Infraestrutura Rodoviária:** Investir em melhorias como sinalização, manutenção de pavimentos e iluminação.
@@ -41,5 +43,5 @@ Identificamos que a presença de radares, apesar de importante, não é suficien
 - **Dados Abertos da PRF:** [PRF Data](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf)
 - **Dados dos Radares:** [Radar Data](https://dados.gov.br/dados/conjuntos-dados/radar)
 
-[Projeto completo](https://github.com/tmarsbr/analise-PRF-/blob/main/An%C3%A1lise%20de%20Dados%20da%20Pol%C3%ADcia%20Rodovi%C3%A1ria%20Federal.ipynb)
+
 
