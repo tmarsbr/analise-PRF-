@@ -30,6 +30,8 @@ Identificamos que a presença de radares, apesar de importante, não é suficien
 5. **Análise Contínua de Dados de Acidentes:** Estabelecer um sistema de monitoramento contínuo para dados de acidentes.
 6. **Implementação de Políticas Públicas Integradas:** Desenvolver políticas que abordem de forma integrada as diversas causas dos acidentes.
 
+
+
 ## Fontes de Dados
 
 - **Dados Abertos da PRF:** [PRF Data](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf)
