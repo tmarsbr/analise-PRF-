@@ -13,7 +13,7 @@ O objetivo deste projeto é, portanto, realizar uma análise extensiva das causa
 o objetivo específico desta parte do projeto é demonstrar habilidades avançadas em SQL e análise de dados. Utilizando Python para se conectar ao banco de dados por meio do pyodbc e executar consultas complexas com o pandasql e operações de SQL brutos dentro do Python. Responsável por indicar a capacidade de lidar e analisar grandes quantidades de dados com eficiência e utilizar as ferramentas tecnológicas disponíveis para obter insights que possam ser usados para decisões baseadas em dados. O pyodbc fornece uma conexão robusta e segura com o SQL Server, enquanto o pandasql oferece uma maneira fácil e simples de executar consultas SQL diretamente em DataFrames do pandas, facilitando um teste rápido e fácil usando o SQL e integrando o processo de análise de dados com Python.
 
 Para mais detalhes, confira a análise completa [aqui](https://github.com/tmarsbr/analise-PRF-/blob/main/Pergutas%20de%20Negocio/An%C3%A1lise%20de%20Dados%20da%20Pol%C3%ADcia%20Rodovi%C3%A1ria%20Federal%20-%20SQL.ipynb).
-
+Projeto em SQL [:](https://github.com/tmarsbr/analise-PRF-/blob/main/Pergutas%20de%20Negocio/An%C3%A1lise%20de%20Dados%20da%20Pol%C3%ADcia%20Rodovi%C3%A1ria%20Federal%20-%20SQL.ipynb)
 ## Recursos do Projeto
 
 - **Eficácia dos Radares:** Investigação sobre a correlação entre a localização dos radares e a ocorrência de acidentes.
